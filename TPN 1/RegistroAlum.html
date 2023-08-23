@@ -2,21 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <LINK rel="stylesheet" href="style.css">
     <title>Formulario Registro de Alumnos</title>
+
 </head>
 <body>
-    <section>
+    <section class="form-register">
         <label> MATRICULA:
-        <input type ="number" min="1" max="10" name="matricula" placeholder="Ingrese la matricula del Alumno" required>
+        <input class="controls" type ="number" min="1" max="10" name="matricula" placeholder="Ingrese la matricula del Alumno" required>
         </label> <BR>
 
         <label> NOMBRE COMPLETO:
-        <input type ="text" name="nombrecompleto" id="nombrecompleto" placeholder="Ingrese el nombre y apellido del Alumno", required>
+        <input class="controls" type ="text" name="nombrecompleto" id="nombrecompleto" placeholder="Ingrese el nombre y apellido del Alumno", required>
         </label> <BR>
 
         <label> MAIL:
-        <input type="email"  name="correo" id="correo" placeholder="Ingrese el mail del Alumno" required>
+        <input class="controls" type="email"  name="correo" id="correo" placeholder="Ingrese el mail del Alumno" required>
         </label> <BR>
+
+        <INPUT class="botons" TYPE="Submit" value="Guardar">
+        <INPUT class="botons" TYPE="Submit" value="Cancelar">
 
     </section>
 
