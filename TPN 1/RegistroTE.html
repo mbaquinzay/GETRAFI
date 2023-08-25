@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro TE</title>
+</head>
+<body>
+  <section>
+        <h1>GTF-REGISTRO DE TRIBUNAL EVALUADOR</h1>
+
+        <label> SELECCIONE EL CARGO:
+        <select name="select">
+          <option value="value1">Presidente</option>
+          <option value="value2" selected>Vocal Titular</option>
+          <option value="value3">Vocal Suplente</option>
+        </select>
+
+       </label> <BR>
+
+       <label> CUIL DEL DOCENTE:
+        <input class="controls" type ="number" min="1" max="11" name="cuil" placeholder="Ingrese cuil del profesor integrante TE" required>
+        </label> <BR>
+
+        <label> VIGENCIA DESDE:
+        <input class="controls" type="date"  name="fechaini" id="fechaini" placeholder="Ingrese la fecha desde cuando es integrante del grupo" required>
+        </label> <BR>
+
+         <label> VIGENCIA HASTA:
+        <input class="controls" type="date"  name="fechafin" id="fechafin" placeholder="Ingrese la fecha hasta cuando es integrante del grupo" required>
+        </label> <BR>
+        <INPUT class="botons" TYPE="Submit" value="Guardar">
+        <INPUT class="botons" TYPE="reset" value="Cancelar">
+    </section>
+</body>
+</html>
