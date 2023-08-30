@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+<!--    <LINK rel="stylesheet" href="style.css">-->
+    <title>Formulario Registro de Alumnos</title>
+
+<!--    css de forma EXTERNA tienen que siempre en el head-->
+    <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--<h3>Using CSS to style an HTML Form</h3>-->
+<div>
+
+    <section>
+        <h1>GTF-REGISTRO DE ALUMNOS</h1>
+        <label> MATRICULA:
+        <input class="controls" type ="number" min="1" max="10" name="matricula" placeholder="Ingrese la matricula del Alumno" required>
+        </label> <BR>
+
+        <label> NOMBRE COMPLETO:
+        <input class="controls" type ="text" name="nombrecompleto" id="nombrecompleto" placeholder="Ingrese el nombre y apellido del Alumno" required>
+        </label> <BR>
+
+        <label> MAIL:
+        <input class="controls" type="email"  name="correo" id="correo" placeholder="Ingrese el mail del Alumno" required>
+        </label> <BR>
+
+         <INPUT class="botons" TYPE="Submit" value="Guardar">
+        <INPUT class="botons" TYPE="reset" value="Cancelar">
+
+    </section>
+</div>
+</body>
+</html>
